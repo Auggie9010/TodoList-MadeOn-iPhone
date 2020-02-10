@@ -1,0 +1,38 @@
+* {
+  color: white;
+  font-family: arial;
+  text-align: center;
+}
+
+body {
+  font-family: arial;
+  background: #4d639f;
+  max-width: 400px;
+  color: #111111
+}
+
+h1 {
+  font-size: 24px;
+}
+
+.table {
+  margin: 10px auto;
+  display: table;
+}
+
+input[type=text], input[type=text]:focus {
+  color: #9abca4;
+  border: none;
+  background: rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: gray;
+  color: white;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}

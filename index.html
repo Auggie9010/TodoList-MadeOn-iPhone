@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="ja">
+  <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <title>スマホで作ったtodoリスト</title>
+  <link rel="stylesheet" href="./stylesheet.css">
+</head>
+<body>
+  <h1>スマホで作ったtodoリスト</h1>
+  <table class="table">
+    <th>コメント</th>
+    <th>完了</th>
+    </tr>
+    <tbody id="todotable">
+      <tr>
+      <td>買い物</td>
+      <td>
+        <button onclick="done(this.parentNode.parentNode.rowIndex)">done</button>
+      </td>
+      </tr>
+    </tbody>
+  </table>
+  <form name="addarea">
+    <input id="todotxt" type="text">
+    <br>
+    <button onclick="addtodo()" type="button">add</button>
+  </form>
+  <script src="./main.js"></script>
+</body>
